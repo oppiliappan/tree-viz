@@ -1,4 +1,6 @@
+```
 tree-viz -- <language> <file> [scope_query]
+```
 
 language is one of:
 
@@ -8,3 +10,5 @@ language is one of:
 - rust
 - markdown
 - ruby
+
+![tree-viz](https://u.peppe.rs/i2G.png)
