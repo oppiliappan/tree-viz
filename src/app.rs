@@ -169,7 +169,7 @@ impl App {
             if self.config.show_src {
                 write!(
                     tree_string,
-                    " {:.?}",
+                    " {:?}",
                     style(node.utf8_text(&self.src).unwrap()).cyan()
                 )
                 .unwrap();
